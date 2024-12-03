@@ -1,0 +1,136 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://atmcgrath.github.io/melon/manifests/dogs.json",
+  "@type" : "sc:Manifest",
+  "label" : "Canines of the McGrurry Menagerie",
+  "metadata" : [ {
+    "label" : "Creator",
+    "value" : "Alice McGrath"
+  }, {
+    "label" : "Subject",
+    "value" : "Angel Curry-McGrath, Oliver Curry"
+  } ],
+  "description" : [ {
+    "@value" : "A series of photos of my dogs",
+    "@language" : "en"
+  }, {
+    "@value" : "Mes chiens",
+    "@language" : "fr"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Alice McGrath, CC-BY-SA-NC",
+  "sequences" : [ {
+    "@id" : "http://727f9b4a-44a0-444e-b468-91e19f5d627c",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://17081c97-5a91-4dce-845b-9ea40eeb8cbf",
+      "@type" : "sc:Canvas",
+      "label" : "Angel on deck",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2d75b733-9b49-43fd-bb06-3147fc623794",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : " https://iiif.archive.org/image/iiif/2/img-6779_202412%2fIMG_6779.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : " https://iiif.archive.org/image/iiif/2/img-6779_202412%2fIMG_6779.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 12192768,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://17081c97-5a91-4dce-845b-9ea40eeb8cbf"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://16cb8630-6077-4f6b-b417-63264c2a2087",
+      "@type" : "sc:Canvas",
+      "label" : "Angel on leash",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bed8864d-7def-4a04-a25b-e15f48ad72de",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : " https://atmcgrath.github.io/melon/images/IMG_6776/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : " https://atmcgrath.github.io/melon/images/IMG_6776",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://16cb8630-6077-4f6b-b417-63264c2a2087"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://a3f6d930-9b76-4c4c-87ad-56921ade50b2",
+      "@type" : "sc:Canvas",
+      "label" : "Oliver",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://af3e28fd-8ee3-4462-b28b-f70aa0334c4c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/oliver-door.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/oliver-door.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 10000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://a3f6d930-9b76-4c4c-87ad-56921ade50b2"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/1", "http://example.org/iiif/book1/range/2" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/1",
+    "@type" : "sc:Range",
+    "label" : "Angel",
+    "canvases" : [ "http://17081c97-5a91-4dce-845b-9ea40eeb8cbf", "http://16cb8630-6077-4f6b-b417-63264c2a2087" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/2",
+    "@type" : "sc:Range",
+    "label" : "Oliver",
+    "canvases" : [ "http://a3f6d930-9b76-4c4c-87ad-56921ade50b2" ]
+  } ]
+}
