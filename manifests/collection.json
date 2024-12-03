@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/dogs.json",
     "label" : "Canines of the McGrurry Menagerie"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/autumn-manifest",
+    "label" : "Bryn Mawr in Autumn"
   } ]
 }
