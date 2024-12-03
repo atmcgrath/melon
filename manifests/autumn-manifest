@@ -1,0 +1,55 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://atmcgrath.github.io/melon/manifests/autumn-manifest",
+  "@type" : "sc:Manifest",
+  "label" : "Bryn Mawr in Autumn",
+  "metadata" : [ {
+    "label" : "Creator",
+    "value" : "Alice McGrath"
+  }, {
+    "label" : "Location",
+    "value" : "Carpenter Library, Bryn Mawr College"
+  } ],
+  "description" : [ {
+    "@value" : "A bright red tree in front of a grey stone building",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Alice McGrath, CC-BY-SA-NC",
+  "sequences" : [ {
+    "@id" : "http://36c03909-4689-4acb-9f76-34c6e8991e9b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e057e668-bfba-4b51-b10e-82d08cf8ca92",
+      "@type" : "sc:Canvas",
+      "label" : "Carpenter",
+      "height" : 480,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0ecb7caa-86d4-4acd-bdd8-5b63ccb3dc9c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://atmcgrath.github.io/melon/images/campus/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://atmcgrath.github.io/melon/images/campus",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 480,
+          "width" : 640
+        },
+        "on" : "http://e057e668-bfba-4b51-b10e-82d08cf8ca92"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
