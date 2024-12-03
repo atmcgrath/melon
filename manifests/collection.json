@@ -1,0 +1,13 @@
+{
+  "id" : "https://atmcgrath.github.io/melon/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in atmcgrath/melon project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/dogs.json",
+    "label" : "Canines of the McGrurry Menagerie"
+  } ]
+}
