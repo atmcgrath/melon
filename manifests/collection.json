@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/autumn-manifest",
     "label" : "Bryn Mawr in Autumn"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/dog-manif-annos",
+    "label" : "Canines of the McGrurry Menagerie"
   } ]
 }
