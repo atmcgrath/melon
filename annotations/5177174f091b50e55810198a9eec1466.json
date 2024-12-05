@@ -1,0 +1,76 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Strike a pose!",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Strike a pose!</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/17772249",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T18:43:17",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733424197093",
+    "dcterms:modified" : "2024-12-05T18:43:17",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://atmcgrath.github.io/melon/manifests/dogs.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2681,831,752,779"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2681.39152,831.3704h376.17207v0h376.17207v389.36908v389.36908h-376.17207h-376.17207v-389.36908z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_1c8a249d-26cf-4b17-b2f5-19e75782b119\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://16cb8630-6077-4f6b-b417-63264c2a2087"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Cute little wolf ears",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Cute little wolf ears</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "ears",
+      "@type" : "oa:Tag",
+      "chars" : "ears"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/17772249",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2024-12-05T18:42:52",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733424172475",
+    "dcterms:modified" : "2024-12-05T18:44:25",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://atmcgrath.github.io/melon/manifests/dogs.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=472,1257,828,647"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M593.51712,1352.01372c76.46174,-54.31859 184.32341,-94.76781 292.70777,-94.71948v0v0c108.38436,0.04833 202.80533,37.88792 292.70777,94.71948c89.90244,56.83156 124.84639,143.43189 121.24353,228.67304c-3.60286,85.24115 -45.75251,169.12312 -121.24353,228.67304c-75.49102,59.54992 -184.32341,94.76781 -292.70777,94.71948c-108.38436,-0.04833 -216.3207,-35.36286 -292.70777,-94.71948c-76.38707,-59.35662 -121.22486,-142.75532 -121.24353,-228.67304c-0.01867,-85.91772 44.78179,-174.35445 121.24353,-228.67304z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"ellipse_3c03dbb0-6392-48cb-a6f0-28a55dd8bf06\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.31172\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://16cb8630-6077-4f6b-b417-63264c2a2087"
+    } ]
+  } ],
+  "@id" : "https://atmcgrath.github.io/melon/annotations/5177174f091b50e55810198a9eec1466.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
