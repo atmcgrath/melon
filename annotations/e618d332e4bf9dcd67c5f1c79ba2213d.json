@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Waiting patiently",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Waiting patiently</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/17772249",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T18:43:45",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733424225678",
+    "dcterms:modified" : "2024-12-05T18:43:45",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://atmcgrath.github.io/melon/manifests/dogs.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2199,752,813,854"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2198.7581,752.11471h406.33666v0h406.33666v427.07481v427.07481h-406.33666h-406.33666v-427.07481z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2bdd7c58-c619-41e7-8ecf-7d21b8d83913\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://a3f6d930-9b76-4c4c-87ad-56921ade50b2"
+    } ]
+  } ],
+  "@id" : "https://atmcgrath.github.io/melon/annotations/e618d332e4bf9dcd67c5f1c79ba2213d.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
