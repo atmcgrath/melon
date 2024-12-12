@@ -1,0 +1,54 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://atmcgrath.github.io/melon/manifests/pdl1.json",
+  "@type" : "sc:Manifest",
+  "label" : "Punch Drunk Love Test 1",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://17d88e7d-8c85-4ef6-a3a7-38d6fb3504aa",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://bc1f2fe0-6202-40d8-bf96-0f4b8f124f23",
+      "@type" : "sc:Canvas",
+      "label" : "PDL1",
+      "height" : 1080,
+      "width" : 1920,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8448f472-beec-4958-8a41-b89e8b116dc0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/pdl1.png/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/pdl1.png",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2073600,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1080,
+          "width" : 1920
+        },
+        "on" : "http://bc1f2fe0-6202-40d8-bf96-0f4b8f124f23"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
