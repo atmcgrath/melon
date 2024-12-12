@@ -21,5 +21,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/pdl1.json",
     "label" : "Punch Drunk Love Test 1"
+  }, {
+    "id" : "https://atmcgrath.github.io/melon/manifests/pdl3.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
