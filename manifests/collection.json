@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/dog-manif-annos",
     "label" : "Canines of the McGrurry Menagerie"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/pdl1.json",
+    "label" : "Punch Drunk Love Test 1"
   } ]
 }
