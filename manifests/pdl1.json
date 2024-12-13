@@ -8,7 +8,7 @@
     "@value" : "[Click to edit description]",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "license" : "Fair use for critical and educational purposes",
   "attribution" : "[Click to edit attribution]",
   "sequences" : [ {
     "@id" : "http://17d88e7d-8c85-4ef6-a3a7-38d6fb3504aa",
@@ -29,12 +29,12 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/pdl1.png/full/full/0/default.jpg",
+          "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/pdl-1.jpg/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/pdl1.png",
+            "@id" : "https://env-2076017.us.reclaim.cloud/iiif/2/pdl-1.jpg",
             "profile" : [ "http://iiif.io/api/image/2/level2.json", {
               "formats" : [ "tif", "jpg", "gif", "png" ],
               "maxArea" : 2073600,
