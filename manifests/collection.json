@@ -35,5 +35,9 @@
     "@type" : "sc:Canvas",
     "@id" : "https://atmcgrath.github.io/melon/manifests/static",
     "label" : "Marbled static image"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/static-2.json",
+    "label" : "Static test"
   } ]
 }
