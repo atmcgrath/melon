@@ -1,0 +1,21 @@
+{
+  "@id" : "https://atmcgrath.github.io/melon/manifests/static.json",
+  "@type" : "sc:Canvas",
+  "label" : "Marbled static image",
+  "height" : 2219,
+  "width" : 424,
+  "thumbnail" : "https://alicetmcgrath.com/images/banner.jpeg",
+  "images" : [ {
+    "@id" : "http://example.com/canvas/2/annotation/1",
+    "@type" : "oa:Annotation",
+    "motivation" : "sc:painting",
+    "resource" : {
+      "@id" : "https://alicetmcgrath.com/images/banner.jpeg",
+      "@type" : "dctypes:Image",
+      "format" : "image/jpeg",
+      "height" : 2219,
+      "width" : 424
+    },
+    "on" : "http://example.com/canvas/2"
+  } ]
+}
