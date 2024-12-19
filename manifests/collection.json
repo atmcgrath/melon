@@ -27,5 +27,9 @@
       "en" : [ "Blank Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Canvas",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/static.json",
+    "label" : "Marbled static image"
   } ]
 }
