@@ -1,0 +1,43 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://atmcgrath.github.io/melon/manifests/static-2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Static test",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://f8b796f5-8b79-485a-a1e3-eb60aa1420f0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://atmcgrathid686256",
+      "@type" : "sc:Canvas",
+      "label" : "Marbled static image",
+      "height" : 2219,
+      "width" : 424,
+      "thumbnail" : "https://alicetmcgrath.com/images/banner.jpeg",
+      "images" : [ {
+        "@id" : "http://example.com/canvas/2/annotation/1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://alicetmcgrath.com/images/banner.jpeg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2219,
+          "width" : 424
+        },
+        "on" : "http://atmcgrathid686256"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
