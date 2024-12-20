@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Cute doggy face",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Cute doggy face</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/17772249",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-20T16:34:24",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1734712464799",
+    "dcterms:modified" : "2024-12-20T16:34:24",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://atmcgrath.github.io/melon/manifests/angel-walk-pres.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=626,732,1241,1012"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M626.32638,732.48197h620.71917v0h620.71917v505.95636v505.95636h-620.71917h-620.71917v-505.95636z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b9b4bde9-8f41-4536-af8a-78e32613c790\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://a44dbdf4-b4f9-4ead-b1da-b6e8cb82b7f3"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Carefully poised paws",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Carefully poised paws</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/17772249",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-20T16:34:51",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1734712491236",
+    "dcterms:modified" : "2024-12-20T16:34:51",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://atmcgrath.github.io/melon/manifests/angel-walk-pres.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1414,2354,889,1050"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1414.36433,2354.463h444.74953v0h444.74953v525.08349v525.08349h-444.74953h-444.74953v-525.08349z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_eafc48c9-10eb-4f57-8b97-68b1e5525db9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://a44dbdf4-b4f9-4ead-b1da-b6e8cb82b7f3"
+    } ]
+  } ],
+  "@id" : "https://atmcgrath.github.io/melon/annotations/annos-angel-sas.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
