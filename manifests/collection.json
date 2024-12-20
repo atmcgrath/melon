@@ -39,5 +39,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/static-2.json",
     "label" : "Static test"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/angel-walk-pres.json",
+    "label" : "Angel dog on a walk"
   } ]
 }
