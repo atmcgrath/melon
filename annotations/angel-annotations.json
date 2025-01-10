@@ -1,0 +1,50 @@
+{
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/75a14eca-1eb8-4010-b031-ad6f6e6fc606",
+    "type" : "Annotation",
+    "body" : [ {
+      "created" : "2025-01-10T20:03:07.542Z",
+      "creator" : "Alice Tweedy McGrath",
+      "purpose" : "commenting",
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<p>Puppy feet</p>"
+    } ],
+    "target" : "http://1c2a511e-f24c-4130-9463-60c702ff0983#xywh=2570,711,786,869"
+  }, {
+    "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/1a666de4-443a-4edc-ad26-4e7ec303bba3",
+    "type" : "Annotation",
+    "body" : [ {
+      "created" : "2025-01-10T20:03:23.712Z",
+      "creator" : "Alice Tweedy McGrath",
+      "purpose" : "commenting",
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<p>Purple tag</p>"
+    } ],
+    "target" : {
+      "type" : "SvgSelector",
+      "value" : "<svg><ellipse cx=\"1738\" cy=\"820\" rx=\"156\" ry=\"145\" /></svg>"
+    }
+  }, {
+    "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/f7b88b2e-5d35-41f5-bedf-2647cf8cbfb9",
+    "type" : "Annotation",
+    "body" : [ {
+      "created" : "2025-01-10T20:03:46.599Z",
+      "creator" : "Alice Tweedy McGrath",
+      "purpose" : "commenting",
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<p>Very active ears</p>"
+    } ],
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg><polygon points=\"526,1573 930,1747 951,1319 940,1317\" /></svg>"
+      }
+    }
+  } ]
+}
