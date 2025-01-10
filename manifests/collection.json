@@ -43,5 +43,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/angel-walk-pres.json",
     "label" : "Angel dog on a walk"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/angel-0.json",
+    "label" : "Angel lvl 0"
   } ]
 }
