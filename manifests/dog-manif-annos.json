@@ -1,6 +1,6 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://atmcgrath.github.io/melon/manifests/dog-manif-annos",
+  "@id" : "https://atmcgrath.github.io/melon/manifests/dog-manif-annos.json",
   "@type" : "sc:Manifest",
   "label" : "Canines of the McGrurry Menagerie",
   "service" : {
