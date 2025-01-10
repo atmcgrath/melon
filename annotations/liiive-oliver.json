@@ -1,0 +1,28 @@
+{
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "https://env-2076017.us.reclaim.cloud/iiif/2/oliver-door.jpg/77ee640b-8aeb-4da5-ae2e-188c9519bc88",
+    "type" : "Annotation",
+    "body" : [ {
+      "created" : "2025-01-03T19:39:59.410Z",
+      "creator" : "Alice",
+      "purpose" : "commenting",
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<p>Quickly wagging tail</p>"
+    } ],
+    "target" : "https://env-2076017.us.reclaim.cloud/iiif/2/oliver-door.jpg#xywh=670,868,380,402"
+  }, {
+    "id" : "https://env-2076017.us.reclaim.cloud/iiif/2/oliver-door.jpg/765d5e0b-0249-4552-902c-8f6ba8827edc",
+    "type" : "Annotation",
+    "body" : [ {
+      "created" : "2025-01-03T19:41:00.276Z",
+      "creator" : "Cameron",
+      "purpose" : "commenting",
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<p>reflection</p>"
+    } ],
+    "target" : "https://env-2076017.us.reclaim.cloud/iiif/2/oliver-door.jpg#xywh=2695,1005,551,974"
+  } ]
+}
