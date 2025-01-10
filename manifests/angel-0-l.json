@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://3b71c7ac-dfba-4450-97c4-d1c4b5dc1987",
+  "@id": "https://atmcgrath.github.io/melon/manifests/angel-0-l.json",
   "@type": "sc:Manifest",
   "label": "Angel lvl 0",
   "metadata": [],
