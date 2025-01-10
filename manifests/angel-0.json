@@ -50,6 +50,13 @@
 							"on": "http://1c2a511e-f24c-4130-9463-60c702ff0983"
 						}
 					],
+          "otherContent": [
+              {
+                  "@id": "https://atmcgrath.github.io/melon/annotations/angel-annotations.json",
+                  "@type": "sc:AnnotationList",
+                  "label": "My fantastic annotations"
+              }
+          ],
 					"related": ""
 				}
 			]
