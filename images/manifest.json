@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://atmcgrath.github.io/melon/images/chevron-cats/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "chevron-cats"
+                ]
+            },
+            "height": 480,
+            "width": 640,
+            "items": [
+                {
+                    "id": "https://atmcgrath.github.io/melon/images/chevron-cats/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://atmcgrath.github.io/melon/images/chevron-cats/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://atmcgrath.github.io/melon/images/chevron-cats/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 15
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 30
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 60
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 120
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 240
+                                            },
+                                            {
+                                                "width": 640,
+                                                "height": 480
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 640,
+                                        "id": "https://atmcgrath.github.io/melon/images/chevron-cats",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 480
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://atmcgrath.github.io/melon/images/chevron-cats/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://atmcgrath.github.io/melon/images/IMG_6776/canvas/",
             "type": "Canvas",
             "label": {
