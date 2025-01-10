@@ -1,49 +1,108 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://atmcgrath.github.io/melon/manifests/angel-0.json",
-  "@type" : "sc:Manifest",
-  "label" : "Angel lvl 0",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "Test of level 0 in liiive",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "ATM",
-  "sequences" : [ {
-    "@id" : "http://3e3aff1f-13a4-4dc3-bf4a-4d7b0eda6fdd",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
-      "@type" : "sc:Canvas",
-      "label" : "Angel",
-      "height" : 3024,
-      "width" : 4032,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://17c7e605-0bf1-47d0-b9df-2bd5eef06668",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://atmcgrath.github.io/melon/images/IMG_6776/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://atmcgrath.github.io/melon/images/IMG_6776",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 3024,
-          "width" : 4032
-        },
-        "on" : "http://1c2a511e-f24c-4130-9463-60c702ff0983"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ ]
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://atmcgrath.github.io/melon/manifests/angel-0.json",
+  "@type": "sc:Manifest",
+  "label": "Angel lvl 0",
+  "description": "Test of level 0 in liiive",
+  "attribution": "ATM",
+  "sequences": [
+      {
+          "@id": "https://atmcgrath.github.io/melon/manifests/angel-0.json/sequence0",
+          "@type": "sc:Sequence",
+          "canvases": [
+              {
+                  "@id": "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+                  "@type": "sc:Canvas",
+                  "height": 3024,
+                  "width": 4032,
+                  "label": "Angel",
+                  "images": [
+                      {
+                          "@id": "http://17c7e605-0bf1-47d0-b9df-2bd5eef06668",
+                          "@type": "oa:Annotation",
+                          "motivation": "sc:painting",
+                          "on": {
+                              "type": "SpecificResource",
+                              "source": {
+                                  "id": "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+                                  "type": "Canvas"
+                              }
+                          },
+                          "resource": {
+                              "@id": "https://atmcgrath.github.io/melon/images/IMG_6776/full/full/0/default.jpg",
+                              "@type": "dctypes:Image",
+                              "format": "image/jpeg",
+                              "height": 3024,
+                              "width": 4032,
+                              "service": {
+                                  "@id": "https://atmcgrath.github.io/melon/images/IMG_6776",
+                                  "profile": "level0"
+                              }
+                          }
+                      }
+                  ],
+                  "annotations": {
+                      "@id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/page/p1",
+                      "@type": "sc:AnnotationList",
+                      "resources": [
+                          {
+                              "@id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/75a14eca-1eb8-4010-b031-ad6f6e6fc606",
+                              "@type": "oa:Annotation",
+                              "motivation": "sc:painting",
+                              "on": {
+                                  "type": "SpecificResource",
+                                  "source": {
+                                      "id": "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+                                      "type": "Canvas"
+                                  },
+                                  "selector": {
+                                      "type": "FragmentSelector",
+                                      "value": "xywh=2570,711,786,869"
+                                  }
+                              },
+                              "resource": {
+                                  "@id": "vault://bdd59aff",
+                                  "format": "text/html"
+                              }
+                          },
+                          {
+                              "@id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/1a666de4-443a-4edc-ad26-4e7ec303bba3",
+                              "@type": "oa:Annotation",
+                              "motivation": "sc:painting",
+                              "on": {
+                                  "type": "SpecificResource",
+                                  "source": {
+                                      "type": "SvgSelector",
+                                      "value": "<svg><ellipse cx=\"1738\" cy=\"820\" rx=\"156\" ry=\"145\" /></svg>"
+                                  }
+                              },
+                              "resource": {
+                                  "@id": "vault://18e2486c",
+                                  "format": "text/html"
+                              }
+                          },
+                          {
+                              "@id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/f7b88b2e-5d35-41f5-bedf-2647cf8cbfb9",
+                              "@type": "oa:Annotation",
+                              "motivation": "sc:painting",
+                              "on": {
+                                  "type": "SpecificResource",
+                                  "source": "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+                                  "selector": {
+                                      "type": "SvgSelector",
+                                      "value": "<svg><polygon points=\"526,1573 930,1747 951,1319 940,1317\" /></svg>"
+                                  }
+                              },
+                              "resource": {
+                                  "@id": "vault://09efe423",
+                                  "format": "text/html"
+                              }
+                          }
+                      ]
+                  }
+              }
+          ]
+      }
+  ],
+  "structures": []
 }
