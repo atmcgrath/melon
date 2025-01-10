@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://atmcgrath.github.io/melon/annotations/e618d332e4bf9dcd67c5f1c79ba2213d.json", "https://atmcgrath.github.io/melon/annotations/5177174f091b50e55810198a9eec1466.json", "https://atmcgrath.github.io/melon/annotations/annos-angel-sas.json" ],
+  "otherContent" : [ "https://atmcgrath.github.io/melon/annotations/e618d332e4bf9dcd67c5f1c79ba2213d.json", "https://atmcgrath.github.io/melon/annotations/5177174f091b50e55810198a9eec1466.json", "https://atmcgrath.github.io/melon/annotations/annos-angel-sas.json", "https://atmcgrath.github.io/melon/annotations/liiive-oliver.json" ],
   "@id" : "https://atmcgrath.github.io/melon/annotations/collection.json",
   "label" : "All annotations loaded in atmcgrath/melon project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
