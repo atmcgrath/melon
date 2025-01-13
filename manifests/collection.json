@@ -47,5 +47,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/angel-0.json",
     "label" : "Angel lvl 0"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/a-o-v2.json",
+    "label" : "Angel lvl 0"
   } ]
 }
