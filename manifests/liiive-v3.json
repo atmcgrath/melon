@@ -4,7 +4,7 @@
   "type" : "Manifest",
   "rights" : "http://creativecommons.org/licenses/by/3.0/",
   "label" : {
-    "none" : [ "Angel lvl 0" ]
+    "none" : [ "V3 liiive test" ]
   },
   "requiredStatement" : {
     "label" : {
@@ -15,7 +15,7 @@
     }
   },
   "summary" : {
-    "en" : [ "Test of level 0 in liiive" ]
+    "en" : [ "Test of v3 export from liiive" ]
   },
   "items" : [ {
     "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
