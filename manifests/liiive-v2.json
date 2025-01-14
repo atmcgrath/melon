@@ -1,0 +1,63 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://atmcgrath.github.io/melon/manifests/liiive-v2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Export test, liiive v2",
+  "description" : "Test of liiive v2 export with annotations",
+  "attribution" : "ATM",
+  "sequences" : [ {
+    "@id" : "https://atmcgrath.github.io/melon/manifests/angel-0.json/sequence0",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+      "@type" : "sc:Canvas",
+      "height" : 3024,
+      "width" : 4032,
+      "label" : "",
+      "annotations" : {
+        "@id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/page/p1",
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "@id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/d4be8dff-c0c6-4ea8-a620-b87a7a21b046",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:painting",
+          "on" : {
+            "type" : "SpecificResource",
+            "source" : {
+              "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+              "type" : "Canvas"
+            },
+            "selector" : {
+              "type" : "FragmentSelector",
+              "value" : "xywh=598,1310,627,403"
+            }
+          },
+          "resource" : {
+            "@id" : "vault://bf251448",
+            "format" : "text/html"
+          }
+        }, {
+          "@id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/93902b2a-6bef-41d7-8eea-41d5fcb10cb7",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:painting",
+          "on" : {
+            "type" : "SpecificResource",
+            "source" : {
+              "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+              "type" : "Canvas"
+            },
+            "selector" : {
+              "type" : "FragmentSelector",
+              "value" : "xywh=2801,823,607,731"
+            }
+          },
+          "resource" : {
+            "@id" : "vault://3b1145da",
+            "format" : "text/html"
+          }
+        } ]
+      }
+    } ]
+  } ],
+  "structures" : [ ]
+}
