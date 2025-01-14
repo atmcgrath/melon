@@ -1,82 +1,102 @@
 {
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "id" : "https://atmcgrath.github.io/melon/manifests/liiive-v3.json",
-  "type" : "Manifest",
-  "rights" : "http://creativecommons.org/licenses/by/3.0/",
-  "label" : {
-    "none" : [ "V3 liiive test" ]
-  },
-  "requiredStatement" : {
-    "label" : {
-      "none" : [ "Attribution" ]
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://atmcgrath.github.io/melon/manifests/angel-0.json",
+    "type": "Manifest",
+    "rights": "http://creativecommons.org/licenses/by/3.0/",
+    "label": {
+        "none": [
+            "Angel lvl 0"
+        ]
     },
-    "value" : {
-      "none" : [ "ATM" ]
-    }
-  },
-  "summary" : {
-    "en" : [ "Test of v3 export from liiive" ]
-  },
-  "items" : [ {
-    "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
-    "type" : "Canvas",
-    "height" : 3024,
-    "width" : 4032,
-    "label" : {
-      "none" : [ "Angel" ]
-    },
-    "items" : [ {
-      "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/annotation-page",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "@context" : "http://iiif.io/api/presentation/3/context.json",
-        "id" : "http://17c7e605-0bf1-47d0-b9df-2bd5eef06668",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "http://1c2a511e-f24c-4130-9463-60c702ff0983",
-        "body" : {
-          "id" : "https://atmcgrath.github.io/melon/images/IMG_6776/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 3024,
-          "width" : 4032,
-          "format" : "image/jpeg",
-          "service" : [ {
-            "@id" : "https://atmcgrath.github.io/melon/images/IMG_6776",
-            "@type" : "ImageService2",
-            "profile" : "level0"
-          } ]
+    "requiredStatement": {
+        "label": {
+            "none": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "none": [
+                "ATM"
+            ]
         }
-      } ]
-    } ],
-    "annotations" : [ {
-      "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/page/p1",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/d4be8dff-c0c6-4ea8-a620-b87a7a21b046",
-        "type" : "Annotation",
-        "body" : [ {
-          "created" : "2025-01-14T20:21:07.766Z",
-          "creator" : "Alice Tweedy McGrath",
-          "purpose" : "commenting",
-          "type" : "TextualBody",
-          "format" : "text/html",
-          "value" : "<p>Puppy ears</p>"
-        } ],
-        "target" : "http://1c2a511e-f24c-4130-9463-60c702ff0983#xywh=598,1310,627,403"
-      }, {
-        "id" : "http://1c2a511e-f24c-4130-9463-60c702ff0983/93902b2a-6bef-41d7-8eea-41d5fcb10cb7",
-        "type" : "Annotation",
-        "body" : [ {
-          "created" : "2025-01-14T20:21:20.575Z",
-          "creator" : "Alice Tweedy McGrath",
-          "purpose" : "commenting",
-          "type" : "TextualBody",
-          "format" : "text/html",
-          "value" : "<p>Puppy feet</p>"
-        } ],
-        "target" : "http://1c2a511e-f24c-4130-9463-60c702ff0983#xywh=2801,823,607,731"
-      } ]
-    } ]
-  } ],
-  "structures" : [ ]
+    },
+    "summary": {
+        "en": [
+            "Test of level 0 in liiive"
+        ]
+    },
+    "items": [
+        {
+            "id": "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+            "type": "Canvas",
+            "height": 3024,
+            "width": 4032,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "annotations": [
+                {
+                    "id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/page/p1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/d4be8dff-c0c6-4ea8-a620-b87a7a21b046",
+                            "type": "Annotation",
+                            "body": [
+                                {
+                                    "created": "2025-01-14T20:21:07.766Z",
+                                    "creator": "Alice Tweedy McGrath",
+                                    "purpose": "commenting",
+                                    "type": "TextualBody",
+                                    "format": "text/html",
+                                    "value": "<p>Puppy ears</p>"
+                                }
+                            ],
+                            "target": "http://1c2a511e-f24c-4130-9463-60c702ff0983#xywh=598,1310,627,403"
+                        },
+                        {
+                            "id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/93902b2a-6bef-41d7-8eea-41d5fcb10cb7",
+                            "type": "Annotation",
+                            "body": [
+                                {
+                                    "created": "2025-01-14T20:21:20.575Z",
+                                    "creator": "Alice Tweedy McGrath",
+                                    "purpose": "commenting",
+                                    "type": "TextualBody",
+                                    "format": "text/html",
+                                    "value": "<p>Puppy feet</p>"
+                                }
+                            ],
+                            "target": "http://1c2a511e-f24c-4130-9463-60c702ff0983#xywh=2801,823,607,731"
+                        },
+                        {
+                            "id": "http://1c2a511e-f24c-4130-9463-60c702ff0983/dddf6767-e1b0-4870-909a-3ead4b1618f5",
+                            "type": "Annotation",
+                            "body": [
+                                {
+                                    "created": "2025-01-14T20:43:10.861Z",
+                                    "creator": "Cameron Boucher",
+                                    "purpose": "commenting",
+                                    "type": "TextualBody",
+                                    "format": "text/html",
+                                    "value": "<p>puppy</p>"
+                                }
+                            ],
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "http://1c2a511e-f24c-4130-9463-60c702ff0983",
+                                "selector": {
+                                    "type": "SvgSelector",
+                                    "value": "<svg><polygon points=\"1407,2466 1131,2100 837,1772 434,1530 557,1397 858,1355 1291,1044 1441,715 1298,465 1342,200 1435,53 1838,39 1987,71 2064,96 2238,194 2458,224 2548,290 2567,389 2528,493 2434,496 2319,473 2411,640 2597,661 2661,769 2670,832 3168,939 3369,1053 3402,1239 3353,1398 3173,1567 2781,1587 2641,1628 2395,1486 2129,1709 2029,1691 1711,1855 1663,2236\" /></svg>"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "structures": []
 }
