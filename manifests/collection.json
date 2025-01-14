@@ -51,5 +51,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/a-o-v2.json",
     "label" : "Angel lvl 0"
+  }, {
+    "id" : "https://atmcgrath.github.io/melon/manifests/liiive-v3.json",
+    "label" : {
+      "none" : [ "Angel lvl 0" ]
+    },
+    "type" : "Manifest"
   } ]
 }
