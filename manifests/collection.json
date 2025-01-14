@@ -57,5 +57,9 @@
       "none" : [ "Angel lvl 0" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/liiive-v2.json",
+    "label" : "Export test, liiive v2"
   } ]
 }
