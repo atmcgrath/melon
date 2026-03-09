@@ -1,0 +1,98 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "type" : "Manifest",
+  "id" : "https://atmcgrath.github.io/melon/manifests/Folder_9_1r_8.json",
+  "label" : "Folder 9, 1r",
+  "metadata" : [ {
+    "label" : "Available Online",
+    "value" : [ "https://colenda.library.upenn.edu/catalog/81431-p3r20sf8q" ]
+  }, {
+    "label" : "Title",
+    "value" : [ "Henry Charles Lea Collection of Inquisition Manuscripts, 1533-1866" ]
+  }, {
+    "label" : "Name",
+    "value" : [ "Lea, Henry Charles, 1825-1909 (collector)", "Ajeta, Gaetano Nicolò, approximately 1654-1680", "Arechederra y Tovar, Juan de, -1751", "Galbe, Miguel de", "Garzarón, Francisco", "Tribunal de la Inquisición de Toledo" ]
+  }, {
+    "label" : "Date",
+    "value" : [ "1533/1866" ]
+  }, {
+    "label" : "Item Type",
+    "value" : [ "Text" ]
+  }, {
+    "label" : "Physical Format",
+    "value" : [ "legal documents", "notarial documents", "treatises", "decrees", "government records", "Manuscripts, Renaissance", "Manuscripts, European", "Manuscripts, Spanish", "Manuscripts, Italian", "Manuscripts, French", "manuscripts (documents)" ]
+  }, {
+    "label" : "Description",
+    "value" : [ "Original manuscripts previously stored with copies of manuscripts made for Henry Charles Lea at various archives in Europe.  The majority of the documents in the collection are from Inquisition trials, arranged by the name of the defendant, including records of the trials of 13 women and one man accused of heresy, held in Toledo; the trial of Francesco Barozzi, accused of witchcraft, held in Venice in 1587; and the trial of Friar Thomas Maldonado, accused of fornication, held in Mexico City in 1594.  A small amount of correspondence follows, arranged by name of author, comprising a 1533 letter from Fiscal Miguel de Galbe to the Inquisitor General; 1807 correspondence between the viceroy of Mexico, José de Iturrigaray, and the Mexican Tribunal of the Inquisition by which the viceroy sought to determine the actual boundaries between the Spanish territory of Texas and the territory of Louisiana, recently acquired by the United States; and a 1773 letter from the chaplain of Quechula, Josef Nicolás Marqués, reporting a denunciation to the inquisitor Julián Vicente González Andia.  A small number of other manuscripts are arranged alphabetically:  a discourse (discorso) by Angelo Gioccatana (anagrammatic pen name for Gaetano Niccolò Ageta) on the history and role of the Inquisition in the Kingdom of Sicily and Naples, given in Naples in 1691; a 1579 edict (edicto) of the Inquisition in Mexico stating its authority, purpose, and expectations of the public; a highly calligraphic document (Escrito curioso) consisting of a short theological treatise in Spanish followed by religiously themed illustrations, acrostics, poems, odes, and elegies, all in Latin; and a 1767 royal decree (real cédula) proclaiming royal jurisdiction (as opposed to ecclesiastical jurisdiction) over bigamy in Spanish America.  The remaining documents are  miscellaneous French documents related to the balance of power between the Pope and European monarchs and to the Kingdoms of Aragon and Navarra, including references to Moors and Christians in the 8th and 9th centuries; and an unidentified index of Italian books.  3 oversize items are stored with the collection:  a letter (prior to 1728) of Juan de Archederra, Bishop of Nueva Segovia (Philippines), to Francisco Garzarón, inquisitor of Mexico, concerning a edict of the Emperor of China; a 1724 denunciation to the Inquisition of a Jansenist in China; and a papal brief of 1692 from Innocent XI listing the powers and permissions granted (facultates concessae) to Guglielmo Basserio in his post as apostolic vicar." ]
+  }, {
+    "label" : "Extent",
+    "value" : [ "46 items" ]
+  }, {
+    "label" : "Language",
+    "value" : [ "Spanish; Castilian" ]
+  }, {
+    "label" : "Coverage",
+    "value" : [ "Early works to 1800" ]
+  }, {
+    "label" : "Note",
+    "value" : [ "In Spanish with some documents in Latin, Italian, and French." ]
+  }, {
+    "label" : "Relation",
+    "value" : [ "Finding aid: https://findingaids.library.upenn.edu/records/UPENN_RBML_PUSP.MS.COLL.728", "Digital facsimile for browsing (Colenda): https://colenda.library.upenn.edu/catalog/81431-p3r20sf8q" ]
+  }, {
+    "label" : "Subject",
+    "value" : [ "Naranja, Maria", "Pérez, Ángela", "Serrana, Mari", "Lopez, Mari", "Torres, Ana de", "Vaez, Mari", "Nuñez Marquez, Angela", "Rodriguez, Mari", "Henriquez, Ana", "Gomez, Maria Alicia", "Roya, Mayor la", "Garcia, Maior", "Paredes, Maria de", "Rodriguez Silva, Diego", "Maldonado, Thomas", "Barozzi, Francesco, 1537-1604", "Trials (Heresy) -- Spain", "Christian converts from Islam -- Spain -- History", "Christian converts from Judaism -- Spain -- History", "Moriscos -- Early works to 1800", "Crypto-Jews -- Iberian Peninsula -- Spain", "Inquisition -- Spain -- Early works to 1800", "Inquisition -- Mexico -- Early works to 1800", "Inquisition -- Italy -- Naples (Kingdom)", "Inquisition", "Jurisdiction (Ecclesiastical law)", "Moriscos", "Christian converts from Judaism", "History", "Christian converts from Islam", "Trials (Heresy)", "Jurisdiction (Ecclesiastical law) -- Mexico", "Louisiana Purchase", "Missions -- Philippines", "Missions" ]
+  }, {
+    "label" : "Geographic Subject",
+    "value" : [ "Italy", "Naples (Kingdom)", "Philippines", "Mexico", "Spain" ]
+  }, {
+    "label" : "Physical Location",
+    "value" : [ "Kislak Center for Special Collections, Rare Books and Manuscripts, Manuscripts, Ms. Coll. 728" ]
+  }, {
+    "label" : "Rights",
+    "value" : [ "http://rightsstatements.org/vocab/NoC-US/1.0/" ]
+  }, {
+    "label" : "Bibnumber",
+    "value" : [ "9944870663503681" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://iiif-images.library.upenn.edu/iiif/2/ac1952d0-ac95-44da-a251-d34d80e3e125/full/!200,200/0/default.jpg",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://iiif-images.library.upenn.edu/iiif/2/ac1952d0-ac95-44da-a251-d34d80e3e125",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://colenda.library.upenn.edu/items/ark:/81431/p3r20sf8q/canvas/p1013",
+      "@type" : "sc:Canvas",
+      "label" : "Folder 9, 1r",
+      "height" : 5541,
+      "width" : 3920,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif-images.library.upenn.edu/iiif/2/82079d16-0eda-4980-9488-1a00207cd746/full/!200,200/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 3920,
+          "height" : 5541,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif-images.library.upenn.edu/iiif/2/82079d16-0eda-4980-9488-1a00207cd746",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://colenda.library.upenn.edu/items/ark:/81431/p3r20sf8q/canvas/p1013"
+      } ],
+      "rendering" : [ {
+        "@id" : "https://colenda.library.upenn.edu/items/ark:/81431/p3r20sf8q/assets/82079d16-0eda-4980-9488-1a00207cd746/original",
+        "label" : "Original File - 65.2 MB",
+        "format" : "image/tiff"
+      } ]
+    } ]
+  } ]
+}
