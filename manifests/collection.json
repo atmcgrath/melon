@@ -69,5 +69,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/naranja-manifest.json",
     "label" : "Subset of Henry Charles Lea Collection of Inquisition Manuscripts, 1533-1866"
+  }, {
+    "id" : "https://atmcgrath.github.io/melon/manifests/Folder_9_1r_8.json",
+    "label" : "Folder 9, 1r",
+    "type" : "Manifest"
   } ]
 }
