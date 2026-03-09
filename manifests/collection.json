@@ -73,5 +73,9 @@
     "id" : "https://atmcgrath.github.io/melon/manifests/Folder_9_1r_8.json",
     "label" : "Folder 9, 1r",
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/Folder_8_1r_7.json",
+    "label" : "Folder 8, 1r"
   } ]
 }
