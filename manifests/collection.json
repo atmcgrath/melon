@@ -77,5 +77,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://atmcgrath.github.io/melon/manifests/Folder_8_1r_7.json",
     "label" : "Folder 8, 1r"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://atmcgrath.github.io/melon/manifests/Folder_6_1r_5.json",
+    "label" : "Trial records of Mari Lopez"
   } ]
 }
