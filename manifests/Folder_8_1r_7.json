@@ -3,13 +3,13 @@
   "type" : "sc:Manifest",
   "@type" : "sc:Manifest",
   "@id" : "https://atmcgrath.github.io/melon/manifests/Folder_8_1r_7.json",
-  "label" : "Folder 8, 1r",
+  "label" : "Trial records: Naranja, Maria (1538-1544).",
   "metadata" : [ {
     "label" : "Available Online",
     "value" : [ "https://colenda.library.upenn.edu/catalog/81431-p3r20sf8q" ]
   }, {
     "label" : "Title",
-    "value" : [ "Henry Charles Lea Collection of Inquisition Manuscripts, 1533-1866" ]
+    "value" : [ "Henry Charles Lea Collection of Inquisition Manuscripts, 1533-1866. Folder 8, 1r." ]
   }, {
     "label" : "Name",
     "value" : [ "Lea, Henry Charles, 1825-1909 (collector)", "Ajeta, Gaetano Nicolò, approximately 1654-1680", "Arechederra y Tovar, Juan de, -1751", "Galbe, Miguel de", "Garzarón, Francisco", "Tribunal de la Inquisición de Toledo" ]
